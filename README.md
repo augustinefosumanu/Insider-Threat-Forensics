@@ -4,6 +4,21 @@
 
 In this immersive lab, I will step into the role of a junior cybersecurity administrator at Candy Corp, where a critical breach is unfolding. The R&D division has uncovered alarming signs that a rogue employee is leaking highly classified dessert recipes to rival company Sugar Corp—threatening Candy Corp’s market dominance. My urgent mission: construct a secure forensic evidence repository to catalog, analyze, and correlate digital breadcrumbs (emails, logs, and web activity) that will expose the insider’s actions. This repository will serve as the cornerstone of the investigation, enabling me to methodically trace the breach while adhering to forensic best practices. <br />
 
+Deep into the active investigation of the suspected intellectual property theft, two employees—Henry (Senior R&D Engineer) and Ruth (Supply Chain Manager)—have been flagged as potential insiders leaking proprietary dessert recipes to rival company Sugar Corp. My manager has covertly extracted digital files from Henry and Ruth’s workstations during a forensic sweep.<br /> These files include: <br />
+-  Suspicious documents (e.g., draft recipes, communications)<br />
+-  Unreadable data (encrypted/gibberish files, possibly obfuscated)<br />
+
+My Objective is to perform a rapid triage of the files to: <br />
+
+-  Identify readable text data (e.g., logs, emails, plaintext recipes) for immediate analysis. <br />
+-  Flag gibberish/binary files that may require advanced tools (hex editors, entropy analysis).<br />
+-  Prioritize evidence suggesting ties to Sugar Corp (e.g., filenames, metadata, keywords).<br />
+
+I’ve uncovered alarming evidence of collusion between employees Henry (R&D) and Ruth (Supply Chain) with competitor Sugar Corp. My manager has just secured additional critical files from their workstations, escalating the urgency to:<br />
+
+-  Analyze new data (emails, financial records, encrypted archives) for ties to recipe leaks. <br />
+-  Compile a court-ready evidence dossier for law enforcement within a 72-hour window before Sugar Corp’s product launch.<br />
+
 
 <h2> Step 1: Navigating to secure my workspace </h2>
 
@@ -72,7 +87,106 @@ I must also copy and move several of the evidence files after creating this new 
 <img src="https://i.imgur.com/JDgdtVE.png" height="80%" width="80%" alt="Checking files in Internal_Investigation_Employee_B directory"/>
 <br />
 
+<h2>Step 8: Navigating to the Forensic Workspace </h2>
+<b>Purpose:  </b> To begin analyzing the files from Henry and Ruth, I first ensure I’m working in the secure directory where the extracted evidence is stored.<br />
+<b>My Action:  </b> I use <b>cd</b> to navigate to the centralized forensic workspace. This directory was pre-configured by my manager to house all evidence related to the insider threat investigation.<br />
+<b>Reflection:  </b> By starting here, I’m setting up a controlled environment—like putting on gloves before handling physical evidence. This discipline is critical for credible forensic analysis.<br />
+<p align="center">
+<img src="https://i.imgur.com/06e9glR.png" height="80%" width="80%" alt="Navigating to oh_henry directory"/>
+  
+<h2>Step 9: Inspecting Henry’s Files </h2>
+<b>Purpose:  </b> I’ll isolate Henry’s files to focus on his potential involvement with Sugar Corp, ensuring no cross-contamination with Ruth’s evidence.<br />
+<b>My Action:  </b> I move into the ‘Henry’ subdirectory using <b>cd</b>—this folder contains all files extracted from Henry’s workstation then using <b>ls</b>, I list all files within the directory.<br />
+<p align="center">
+<img src="https://i.imgur.com/n1wygxp.png" height="80%" width="80%" alt="Navigating into Henry directory"/>
+
+<h2>Step 10: Previewing Henry’s Files </h2>
+<b>Purpose:  </b> I’ll now inspect Henry’s files to identify readable text, hidden clues, or ties to Sugar Corp.<br />
+<b>My Action:  </b> By using <b>head</b> with option <b>-n</b>, I am able to preview the files to show which ones are readable and which ones are obfuscated.<br />
+<b>Reflection:  </b> By scripting these commands, I’m simulating real-world insider threat hunting—where seconds matter and buried clues can unravel entire schemes.<br />
+<p align="center">
+<img src="https://i.imgur.com/mMCKPr7.png" height="80%" width="80%" alt="Previewing files"/>
+<img src="https://i.imgur.com/PQZ5ndF.png" height="80%" width="80%" alt="Previewing files"/>
+
+<h2>Step 11: Removing Non-Readable Files </h2>
+<b>Purpose:  </b> To declutter the workspace, I’ll remove unreadable (binary/gibberish) files, retaining only actionable text evidence.<br />
+<b>My Action:  </b> Using <b>rm</b>, I will remove all non-readable files within the directory.<br />
+<b>Reflection:  </b>In real investigations, binaries are archived (not deleted) for advanced analysis. This simulation prioritizes simplicity.<br />
+<p align="center">
+<img src="https://i.imgur.com/4KzlGbH.png" height="80%" width="80%" alt="Removing files"/>
+
+<h2>Step 12: Switching Focus to Ruth’s Directory </h2>
+<b>Purpose:  </b> With Henry’s files triaged, I’ll now investigate Ruth’s directory to uncover potential supply chain leaks to Sugar Corp.<br />
+<b>My Action:  </b> I use <b>cd</b> ../Ruth to move up one level (to the parent folder) and then into Ruth’s dedicated directory. Then using <b>ls</b>, I list all files within the directory.<br />
+<p align="center">
+<img src="https://i.imgur.com/5qaLebd.png" height="80%" width="80%" alt="Navigating into Ruth directory"/>
+
+
+<h2>Step 13: Previewing Ruth’s Files </h2>
+<b>Purpose:  </b> I’ll now inspect Ruth’s files to identify readable evidence of collaboration with Sugar Corp, focusing on communications and financial anomalies.
+<b>My Action:  </b> By using <b>head</b> with option <b>-n</b>, I am able to preview the files to show which ones are readable and which ones are obfuscated.<br />
+<b>Reflection:  </b> By scripting these commands, I’m mirroring real-world forensic workflows where hidden threats lurk in plain sight—and only meticulous analysis uncovers them.”
+<p align="center">
+<img src="https://i.imgur.com/2PhppWX.png" height="80%" width="80%" alt="Previewing files"/>
+<img src="https://i.imgur.com/N4lwWWG.png" height="80%" width="80%" alt="Previewing files"/>
+<img src="https://i.imgur.com/rjt8yv9.png" height="80%" width="80%" alt="Previewing files"/>
+
+<h2>Step 14: Removing Non-Readable Files </h2>
+<b>Purpose:  </b> To declutter the workspace, I’ll remove unreadable (binary/gibberish) files, retaining only actionable text evidence.<br />
+<b>My Action:  </b> Using <b>rm</b>, I will remove all non-readable files within the directory.<br />
+<b>Reflection:  </b>In real investigations, binaries are archived (not deleted) for advanced analysis. This simulation prioritizes simplicity.<br />
+<p align="center">
+<img src="https://i.imgur.com/NllbfJA.png" height="80%" width="80%" alt="Removing files"/>
+
+<h2>Step 15: Navigating to the Central Evidence Directory </h2>
+<b>Purpose:  </b> To begin analyzing the new files provided by my manager, I first ensure I’m in the secure, centralized workspace where all evidence is stored.
+<b>My Action:  </b>  I use <b>cd</b> to navigate to the dedicated investigation directory. This folder was pre-configured to house all evidence, ensuring no accidental interaction with live systems.
+<p align="center">
+
 <h2>Step :  </h2>
 <b>Purpose:  </b>
 <b>My Action:  </b>
 <b>Reflection:  </b>
+<p align="center">
+
+<h2>Step :  </h2>
+<b>Purpose:  </b>
+<b>My Action:  </b>
+<b>Reflection:  </b>
+<p align="center">
+
+<h2>Step :  </h2>
+<b>Purpose:  </b>
+<b>My Action:  </b>
+<b>Reflection:  </b>
+<p align="center">
+
+<h2>Step :  </h2>
+<b>Purpose:  </b>
+<b>My Action:  </b>
+<b>Reflection:  </b>
+<p align="center">
+
+<h2>Step :  </h2>
+<b>Purpose:  </b>
+<b>My Action:  </b>
+<b>Reflection:  </b>
+<p align="center">
+
+<h2>Step :  </h2>
+<b>Purpose:  </b>
+<b>My Action:  </b>
+<b>Reflection:  </b>
+<p align="center">
+
+<h2>Step :  </h2>
+<b>Purpose:  </b>
+<b>My Action:  </b>
+<b>Reflection:  </b>
+<p align="center">
+
+<h2>Step :  </h2>
+<b>Purpose:  </b>
+<b>My Action:  </b>
+<b>Reflection:  </b>
+<p align="center">
