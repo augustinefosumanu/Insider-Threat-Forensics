@@ -16,7 +16,7 @@ My Objective is to perform a rapid triage of the files to: <br />
 
 I’ve uncovered alarming evidence of collusion between employees Henry (R&D) and Ruth (Supply Chain) with competitor Sugar Corp. My manager has just secured additional critical files from their workstations, escalating the urgency to:<br />
 
--  Analyze new data (emails, financial records, encrypted archives) for ties to recipe leaks. <br />
+-  Analyze new data for ties to recipe leaks. <br />
 -  Compile a court-ready evidence dossier for law enforcement within a 72-hour window before Sugar Corp’s product launch.<br />
 
 
@@ -139,15 +139,17 @@ I must also copy and move several of the evidence files after creating this new 
 <img src="https://i.imgur.com/NllbfJA.png" height="80%" width="80%" alt="Removing files"/>
 
 <h2>Step 15: Navigating to the Central Evidence Directory </h2>
-<b>Purpose:  </b> To begin analyzing the new files provided by my manager, I first ensure I’m in the secure, centralized workspace where all evidence is stored.
-<b>My Action:  </b>  I use <b>cd</b> to navigate to the dedicated investigation directory. This folder was pre-configured to house all evidence, ensuring no accidental interaction with live systems.
+<b>Purpose:  </b> To begin analyzing the new files provided by my manager, I first ensure I’m in the secure, centralized workspace where all evidence is stored. <br />
+<b>My Action:  </b>  I use <b>cd</b> to navigate to the dedicated investigation directory. This folder was pre-configured to house all evidence, ensuring no accidental interaction with live systems.<br />
 <p align="center">
+<img src="https://i.imgur.com/32lO3Yc.png" height="80%" width="80%" alt="Navigate into working directory"/>
 
-<h2>Step :  </h2>
-<b>Purpose:  </b>
-<b>My Action:  </b>
+<h2>Step 16: Creating a Dedicated Directory for Combined Evidence </h2>
+<b>Purpose:  </b> To organize the new files from Henry and Ruth into a consolidated workspace, I’ll create a directory to centralize critical findings for the authorities.
+<b>My Action:  </b> I use <b>mkdir</b> with an absolute path to ensure the directory is created in the correct location, avoiding reliance on relative paths.
 <b>Reflection:  </b>
 <p align="center">
+<img src="https://i.imgur.com/nAgPFK1.png" height="80%" width="80%" alt="Creating a new directory"/>
 
 <h2>Step :  </h2>
 <b>Purpose:  </b>
