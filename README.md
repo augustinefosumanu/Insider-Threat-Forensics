@@ -145,13 +145,12 @@ I must also copy and move several of the evidence files after creating this new 
 <img src="https://i.imgur.com/32lO3Yc.png" height="80%" width="80%" alt="Navigate into working directory"/>
 
 <h2>Step 16: Creating a Dedicated Directory for Combined Evidence </h2>
-<b>Purpose:  </b> To organize the new files from Henry and Ruth into a consolidated workspace, I’ll create a directory to centralize critical findings for the authorities.
-<b>My Action:  </b> I use <b>mkdir</b> with an absolute path to ensure the directory is created in the correct location, avoiding reliance on relative paths.
-<b>Reflection:  </b>
+<b>Purpose:  </b> To organize the new files from Henry and Ruth into a consolidated workspace, I’ll create a directory to centralize critical findings for the authorities.<br />
+<b>My Action:  </b> I use <b>mkdir</b> to create Evidence for Authorities directory . The <b>ls</b> command confirms Evidence for Authorities directory now exists alongside Henry and Ruth’s directories.<br />
 <p align="center">
 <img src="https://i.imgur.com/nAgPFK1.png" height="80%" width="80%" alt="Creating a new directory"/>
 
-<h2>Step :  </h2>
+<h2>Step 17:  </h2>
 <b>Purpose:  </b>
 <b>My Action:  </b>
 <b>Reflection:  </b>
