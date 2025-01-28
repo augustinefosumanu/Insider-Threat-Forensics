@@ -1,4 +1,4 @@
-# Proprietary Recipe Data Breach
+# Insider Threat Forensics Lab: Investigating Data Breaches at Candy Corp (Ficticious Organization)
 
 <h2> Lab </h2>
 In this lab, I assumed the role of a junior cybersecurity administrator tasked with investigating a critical data breach at Candy Corp. The lab focused on:<br />
