@@ -1,45 +1,12 @@
 # Proprietary Recipe Data Breach
 
 <h2> Lab </h2>
+In this lab, I assumed the role of a junior cybersecurity administrator tasked with investigating a critical data breach at Candy Corp. The lab focused on:<br />
 
-<h2> Scenario 1 </h2>
-In this immersive lab, I will step into the role of a junior cybersecurity administrator at Candy Corp, where a critical breach is unfolding. The R&D division has uncovered alarming signs that a rogue employee is leaking highly classified dessert recipes to rival company Sugar Corp—threatening Candy Corp’s market dominance. My urgent mission: construct a secure forensic evidence repository to catalog, analyze, and correlate digital breadcrumbs (emails, logs, and web activity) that will expose the insider’s actions. This repository will serve as the cornerstone of the investigation, enabling me to methodically trace the breach while adhering to forensic best practices. <br />
-
-<h2> Scenario 2 </h2>
-
-My manager at Candy Corp needs me to create an additional directory, as they believe there is a second employee working with Sugar Corp.
-I must also copy and move several of the evidence files after creating this new directory. <br />
-
-<h2> Scenario 3 </h2>
-Deep into the active investigation of the suspected intellectual property theft, two employees—Henry (Senior R&D Engineer) and Ruth (Supply Chain Manager)—have been flagged as potential insiders leaking proprietary dessert recipes to rival company Sugar Corp. My manager has covertly extracted digital files from Henry and Ruth’s workstations during a forensic sweep.<br /> These files include: <br />
--  Suspicious documents (e.g., draft recipes, communications)<br />
--  Unreadable data (encrypted/gibberish files, possibly obfuscated)<br />
-
-My Objective is to perform a rapid triage of the files to: <br />
-
--  Identify readable text data (e.g., logs, emails, plaintext recipes) for immediate analysis. <br />
--  Flag gibberish/binary files that may require advanced tools (hex editors, entropy analysis).<br />
--  Prioritize evidence suggesting ties to Sugar Corp (e.g., filenames, metadata, keywords).<br />
-
-<h2> Scenario 4 </h2>
-I’ve uncovered alarming evidence of collusion between employees Henry (R&D) and Ruth (Supply Chain) with competitor Sugar Corp. My manager has just secured additional critical files from their workstations, escalating the urgency to:<br />
-
--  Analyze new data for ties to recipe leaks. <br />
--  Compile a court-ready evidence dossier for law enforcement within a 72-hour window before Sugar Corp’s product launch.<br />
-
-<h2> Scenario 5 </h2>
-My manager has entrusted me with log files from each of the company’s websites, containing records of IP addresses that connected to them on the day of the breach. My task is to systematically analyze these logs to identify patterns and count the number of IP addresses connecting to each website. This analysis will reveal which website endured the heaviest activity, pinpointing the attacker’s main target. By applying forensic methodologies and maintaining meticulous documentation, I will contribute to the investigation, helping Candy Corp mitigate this breach and strengthen its defenses against future threats. <br />
-
-<h2> Scenario 6 </h2>
-Our manager has uncovered the motive behind a recent attack on the PeanutButtery.net server: Henry, a former employee, had hidden a secret recipe for a groundbreaking candy within the file system. Rival company Sugar Corp, desperate to gain an edge, launched the attack in an attempt to steal this classified information. My mission is to methodically scan through the files and directories of the PeanutButtery.net server to uncover the secret recipes concealed by Henry. By conducting a thorough search of the file system, I aim to locate and secure this sensitive data, ensuring it remains protected and usable as evidence. This investigation requires precision, documentation, and adherence to forensic best practices to safeguard Candy Corp’s proprietary assets and strengthen its defenses against future threats.<br />
-
-<h2> Scenario 7 </h2>
-Sugar Corp, a rival company, has allegedly acquired one of Candy Corp’s secret recipes. However, the guavaberry plant, an essential ingredient in these recipes, remains exclusive to Candy Corp, giving them a critical edge.
-My mission: analyze the secret recipes to identify which ones contain guavaberries as an ingredient. By pinpointing the recipes that rely on this rare plant, I will help assess the true extent of the risk posed by Sugar Corp’s actions. This meticulous examination will ensure that Candy Corp retains its market dominance while safeguarding its proprietary knowledge and resources.<br />
-
-<h2> Scenario 8 </h2>
-The company believes it has gathered substantial evidence implicating Sugar Corp in a cybercrime, specifically the theft of Candy Corp's proprietary data. My mission: delve into the file systems to identify and collect critical evidence that can be presented to authorities, solidifying the case against Sugar Corp.
-As part of this investigation, I am tasked with pinpointing which of Candy Corp’s highly confidential secret recipes include guavaberries—a key ingredient that may have been targeted. By meticulously examining the files, I will uncover connections, isolate evidence, and reinforce the chain of custody, ensuring that all findings are admissible and airtight in proving Sugar Corp’s data theft.<br />
+-  Forensic Evidence Management: Constructing secure repositories to catalog and analyze logs, emails, and digital artifacts tied to insider threats.<br />
+-  Insider Threat Analysis: Identifying collusion between employees leaking proprietary recipes to a competitor, Sugar Corp.<br />
+-  Critical Data Recovery: Locating hidden sensitive data, analyzing encrypted files, and isolating evidence tied to stolen intellectual property.<br />
+-  Court-Ready Reporting: Compiling a comprehensive evidence dossier to support legal action.<br />
 
 <h2> Step 1: Navigating to secure my workspace </h2>
 
