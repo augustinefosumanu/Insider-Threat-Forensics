@@ -4,10 +4,10 @@
 <h2> Lab </h2>
 In this lab, I assumed the role of a junior cybersecurity administrator tasked with investigating a critical data breach at Candy Corp. The lab focused on:<br />
 
--  Forensic Evidence Management: Constructing secure repositories to catalog and analyze logs, emails, and digital artifacts tied to insider threats.<br />
--  Insider Threat Analysis: Identifying collusion between employees leaking proprietary recipes to a competitor, Sugar Corp.<br />
--  Critical Data Recovery: Locating hidden sensitive data, analyzing encrypted files, and isolating evidence tied to stolen intellectual property.<br />
--  Court-Ready Reporting: Compiling a comprehensive evidence dossier to support legal action.<br />
+-  <b>Forensic Evidence Management</b>: Constructing secure repositories to catalog and analyze logs, emails, and digital artifacts tied to insider threats.<br />
+-  <b>Insider Threat Analysis</b>: Identifying collusion between employees leaking proprietary recipes to a competitor, Sugar Corp.<br />
+-  <b>Critical Data Recovery</b>: Locating hidden sensitive data, analyzing encrypted files, and isolating evidence tied to stolen intellectual property.<br />
+-  <b>Court-Ready Reporting</b>: Compiling a comprehensive evidence dossier to support legal action.<br />
 
 <h2> Step 1: Navigating to secure my workspace </h2>
 
