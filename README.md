@@ -1,13 +1,16 @@
 # Insider Threat Forensics Lab: Investigating Data Breaches at Candy Corp
 (Ficticious Organization)
 
-<h2> Lab </h2>
-In this lab, I assumed the role of a junior cybersecurity administrator tasked with investigating a critical data breach at Candy Corp. The lab focused on:<br />
+<h2> Overview </h2>
+This lab demonstrates key cybersecurity and forensic investigation tasks performed as a junior cybersecurity administrator, ensuring security, data integrity, and legal preparedness. I investigated a critical data breach at Candy Corp, analyzed insider threats, and managed forensic evidence. I also recovered stolen intellectual property, identified colluding employees, and compiled a court-ready evidence dossier.
 
--  <b>Forensic Evidence Management</b>: Constructing secure repositories to catalog and analyze logs, emails, and digital artifacts tied to insider threats.<br />
--  <b>Insider Threat Analysis</b>: Identifying collusion between employees leaking proprietary recipes to a competitor, Sugar Corp.<br />
--  <b>Critical Data Recovery</b>: Locating hidden sensitive data, analyzing encrypted files, and isolating evidence tied to stolen intellectual property.<br />
--  <b>Court-Ready Reporting</b>: Compiling a comprehensive evidence dossier to support legal action.<br />
+<h2>Technical Skills</h2>
+✅ Forensic Evidence Management<br />
+✅ Insider Threat Analysis<br />
+✅ Data Recovery & Encryption Analysis<br />
+✅ Incident Response & Investigation<br />
+✅ Digital Artifact & Log Analysis<br />
+✅ Legal & Compliance Reporting<br />
 
 <h2>  Navigating to secure my workspace </h2>
 I navigated into the 'take_5' directory using the <b>cd</b> command, stepping into my designated forensic workspace. This folder functioned as a virtual crime scene—carefully quarantined to preserve the integrity of the evidence within.<br />
